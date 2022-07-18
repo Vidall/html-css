@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1 {
+            text-align: center;
+        }
+        div {
+            display: inline-block;
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            text-align: center;
+        }
+        div:hover {
+            background-image: linear-gradient(rgb(58, 206, 28),rgba(58, 206, 28, 0.514), rgba(140, 218, 125, 0.877));
+        }
+        h1  p {
+            display: none;
+        }
+        h1:hover  p {
+            display: block;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color:rgb(58, 206, 28);
+            text-decoration: underline;
+        }
+        a:visited {
+            color: blueviolet;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::after {
+            content: '&nbs[Teste]';
+        }
+    </style>
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <h1>Pseudo-classes
+        <p>Texto escondido</p>
+    </h1>    
+    <h2>Utilizando : para atribuir uma Pseudo-classe</h2>
+    <div>a</div>
+    <div>b</div>
+    <div>c</div>
+    <h1>Pseudo elementos</h1>  
+    <h2>Utilizando :: para atribuir &bs; um pseudo-elemento</h2>
+    <ul>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tags</title>
+    <style>
+        body {
+            background-image: radial-gradient(#733D29, #BF8665, #D9BBB0);
+            font-family: Arial, Helvetica, sans-serif;
+            height: 1200px;
+        }
+        div {            
+            background-color: #ffffff;
+            height: 1014.562px;
+            width: 1200px;
+            margin: -20px auto 0px auto;
+            border-radius: 5px;
+        }
+        header#pricipal {
+            display: block;
+            height: 400px;
+            background-color: #18519c;
+        }
+        header#principal h1 {
+            text-align: center;
+            font-weight: bolder;
+            padding-top: 20px;
+            color: #BF8665;
+            text-shadow: 2px 1px 4px #733d299a;
+        }
+        header#principal li {
+            display: inline-block;
+            padding-right: 100px ;
+            margin: 0px auto;
+        }
+        header#principal ul {
+            text-align: center;
+            background-color: #041E40;
+            height: 22px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        header#principal a {
+            background-color: #606060;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px #050505b7;
+        }
+        header#principal a:hover {
+            background-color: white;
+            color: black;
+        }
+        div#lado-esquerdo {
+            display: inline-block;
+            margin-top: -16px;
+            width:600px;
+            border-right: 3px solid #606060;
+            height: 828.562px;
+        }
+
+        section div {
+            display: inline-block;
+            background-color: #041E40;
+            width: 500px;
+            height: 200px;
+            margin-top: 5px;
+            margin-left: 50px;         
+            
+        }
+        div > p {
+            color: rgb(47, 214, 116);
+            text-align: center;
+            padding-top: 68px;
+        }
+
+        footer {
+            background-color: #011126;
+            border-top: 5px solid #733D29;
+        }
+        footer > p {
+            color: white;
+            font-family: 12pt;
+        }
+
+        
+    </style>
+</head>
+<body>   
+    <div>
+        <header id="principal">
+            <h1>Titulo Principal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, nisi atque, explicabo, repellendus cum dolores nulla id dolore fuga quisquam libero voluptatibus quo culpa placeat doloremque. Odit iste veritatis facilis?</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="lado-esquerdo">
+                <section id="noticia-principal">
+                    <h2>Titulo da noticia 1</h2>
+                    <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum repellendus et suscipit soluta! Dicta, quasi nemo optio blanditiis minima ratione dolores placeat quae minus vitae error possimus quisquam, deserunt totam?</article>
+                           
+                    <h2>Titulo da noticia 2</h2>
+                    <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates sapiente nulla accusamus cum mollitia aliquid aliquam nam commodi, iste eaque deserunt dolore aut, quisquam vel perferendis molestias. Doloribus, at debitis?</article>
+                    <aside>
+                        Luan vidal da cunha
+                    </aside>
+                    <div>
+                        <p>FOTO</p>
+                    </div>
+                </section>                  
+
+            </div>
+        </main>
+        <footer>
+            <p>Copyright Luan Vidal</p>
+        </footer>
+    </div>
+</body>
+</html>

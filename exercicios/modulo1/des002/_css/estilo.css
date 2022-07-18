@@ -1,0 +1,35 @@
+body{
+    display: block;
+    background-color: black;
+    width: 1200px;
+    margin: 0px auto 0px auto;
+}
+body h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #606060;
+}
+
+div#primeira{
+    text-align: center;
+    
+}
+div#primeira img{
+    padding: 5px;
+}
+
+div#primeira img:hover {
+    box-shadow: 2px 2px 4px white;
+}
+
+div#videos {
+    text-align: center;
+}
+
+div#videos a{
+    
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
