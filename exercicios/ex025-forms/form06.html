@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script>
+        function mudaFoto (foto)
+        {
+            document.getElementById("icone").src = foto;
+        }
+    </script>
+</head>
+<body>
+    <h1>Formulario parte 5</h1>
+    <img src="imagens/logo-facebook.jpg" alt="Facebook" id="icone">
+    <ul>
+        <li style= "display:inline-block; padding: 20px; background-color: aquamarine; border-radius: 10px; margin: 10px;" onmousemove="mudaFoto('imagens/logo-facebook.jpg')" onmouseout="mudaFoto('imagens/logo-facebook.jpg')"><a href="https://www.youtube.com" target="_blank">Facebook</a></li><br>
+
+        <li style= "display:inline-block; padding: 20px; background-color: aquamarine; border-radius: 10px; margin: 10px;" onmousemove="mudaFoto('imagens/logo-youtube.jpg')" onmouseout="mudaFoto('imagens/logo-facebook.jpg')"><a href="https://www.youtube.com" target="_blank">Youtube</a></li><br>
+
+        <li style= "display:inline-block; padding: 20px; background-color: aquamarine; border-radius: 10px; margin: 10px;"onmousemove="mudaFoto('imagens/logo-github.jpg')" onmouseout="mudaFoto('imagens/logo-facebook.jpg')"><a href="https://www.youtube.com" target="_blank">Github</a></li>
+    </ul>
+    <form action="cadastro.php" method="post">        
+        <p>
+            <select name="estado" id="iest">
+                <option value="BR"></option>
+                <optgroup label="Suldeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="SE">Sergipe</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="Desenvolvidor">Desenvolvidor</option>
+                <option value="Professor">Professor</option>
+                <option value="Tecnico">Tecnico</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="reset" value="Limpar"> <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

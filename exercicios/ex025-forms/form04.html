@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Formulario parte 3</h1>
+    <form action="cadastro.php" autocomplete="off" method="get">
+        <fieldset>
+            <legend>Dados Cadastrais</legend>
+            <p><label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Exemplo@exemplo.com">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" required placeholder="(99)99999-9999">
+            </p>
+            <p>
+                <input type="reset" value="Limpar"> <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+    </form>
+    <form action="cadastro.php">                
+        <fieldset>
+            <legend>Dados da empresa</legend>
+            <p>
+                <label for="inome2">Nome: </label>
+                <input type="text" name="nome2" id="inome2">
+            </p>
+            
+            <p>
+                <input type="reset" value="Limpar"> <input type="submit" value="Enviar">
+            </p>
+        </fieldset> 
+    </form>
+</body>
+</html>

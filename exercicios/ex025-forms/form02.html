@@ -9,13 +9,20 @@
 <body>
     <h1>Formulário de cadastro</h1>
     <form action="cadastro.php" autocomplete="off" method="post">
-        <p><label for="iusuario">Usuário: </label>
-        <input type="text" name="usuario" id="iusuario" required    ></p>
+        <p>
+            <label for="iusuario">Usuário: </label>
+            <input type="text" name="usuario" id="iusuario" required autocomplete="nickname" size="20" placeholder="Nome de Usuário">
+        </p>
 
-        <p><label for="isenha">Senha: </label>
-        <input type="password" name="senha" id="isenha" required autocomplete="current-password"></p>
+        <p>
+            <label for="isenha">Senha: &nbsp;&nbsp;</label>
+            <input type="password" name="senha" id="isenha" required autocomplete="current-password" minlength="5" size="20" placeholder="Escreva a senha">
+        </p>
 
-        <p><input type="reset"> <input type="submit" ></p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Entrar">
+        </p>
 
 
     </form>
