@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+header menu {
+    display: none;
+}
+
+img#pc {display:none}
+img#celular {display: none;}
+img#impressora {display:block}
+img#tablet {display:none}
+img#tv {display:none}

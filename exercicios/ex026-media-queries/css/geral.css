@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    width: 100vh;
+    height: 100vw;
+}
+
+header{
+    text-align: center;
+}
+
+header ul {
+    background-color: #606060de;
+    color: center;
+    height: 25px;
+}
+header li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-right: 10px
+}
+
+

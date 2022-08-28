@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+img#pc {display:none}
+img#celular {display: block;}
+img#impressora {display:none}
+img#tablet {display:none}
+img#tv {display:none}
